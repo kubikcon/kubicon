@@ -50,7 +50,7 @@ p{
     background: url(images/header/backgroundimage_p1.jpg)  no-repeat center/cover;
     flex-direction: column;
     position: relative;
-    height:740px;
+    height:100%;
 }
 
 .header{
