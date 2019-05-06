@@ -47,10 +47,10 @@ p{
 }
 
 .background_on_landing_page{
-    background: url(images/header/backgroundimage_p1.jpg)  no-repeat center/cover;
+    background: url(images/header/backgroundimage_p1.jpg)   center/cover;
     flex-direction: column;
     position: relative;
-    height:665px;
+    height:auto;
 }
 
 .header{
@@ -254,7 +254,7 @@ p{
     display: flex;
     flex-flow: wrap;
     justify-content: center;
-    max-width:970px;
+    max-width:1000px;
    margin:25px 0 50px 0;
 }
 
@@ -658,17 +658,19 @@ margin:0 50px 0 0 ;
    padding:0 0 0 31%;
 }
 
-@media screen and (max-width: 800px) {
-    .main_menu{
+@media screen and (max-width: 600px) {
+    .main_menu {
         height: 150px;
-        display:flex;
-        flex-direction:column;
-        align-items:flex-end;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
         justify-content: flex-start;
     }
+
     .line_ander_titel {
         display: none;
     }
+
     .main_menu__button {
         font-size: 13px;
         width: auto;
@@ -676,16 +678,73 @@ margin:0 50px 0 0 ;
         font-family: 'Roboto', sans-serif;
         font-weight: 900;
         text-decoration: none;
-        margin:5px 0 0 0;
+        margin: 5px 0 0 0;
     }
-    .main_menu__button:hover{
+
+    .main_menu__button:hover {
         font-size: 13px;
-        display:flex;
+        display: flex;
         color: #00e0d0;
         font-family: 'Roboto', sans-serif;
         font-weight: 900;
         text-decoration: none;
-        margin:5px 0 0 0;
+        margin: 5px 0 0 0;
     }
 
+    .background_on_landing_page {
+        height: auto;
+        background: #280056;
+        center / cover;
+    }
+
+    .main {
+        display: flex;
+        height: 400px;
+        justify-content: flex-end;
+        margin-top: 200px;
+    }
+
+    .main__titel {
+        display: flex;
+        font-size: 23px;
+    }
+
+    .slider {
+        height: 55px;
+        padding-bottom: 20px;
+    }
+
+    .main__text {
+        height: 555px;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 0 20px 0;
+    }
+
+    .happi_client {
+        height: auto;
+    }
+
+    input[type=text] {
+        width: 90%;
+    }
+
+    .fotter{
+        height:600px;
+        background: #280056;
+        center / cover;
+    }
+    .form{
+        margin:0 0 50px 12%;
+    }
+
+    .form__input[type=text]{
+        width:100%;
+    }
+    .ending{
+        display:none;
+    }
+    { justify-content: center;
+
+    }
 }
