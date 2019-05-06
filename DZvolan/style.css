@@ -658,7 +658,7 @@ margin:0 50px 0 0 ;
    padding:0 0 0 31%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .main_menu {
         height: 150px;
         display: flex;
@@ -744,7 +744,5 @@ margin:0 50px 0 0 ;
     .ending{
         display:none;
     }
-    { justify-content: center;
-
-    }
+   
 }
