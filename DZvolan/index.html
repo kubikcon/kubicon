@@ -7,6 +7,18 @@
     <meta charset="UTF-8">
     <title>final progect</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script>var firstDiv = document.querySelector( ".todo_box" ); // выбираем первый элемент <div> в документе 
+	var todoareaDiv = document.querySelector( ".todo_area" );
+	function run() {
+	 var newDiv = firstDiv.cloneNode( true ); // клонируем элемент с его потомками
+todoareaDiv.insertBefore(newDiv, todoareaDiv.firstChild);// добавляем клонированный элемент элементу <todoarea>
+var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x;
+	}
+//*www.8-ball.ru/todo.html 
+//kalapasa.ru/stati/javascript/spisok-del-na-chistom-javascript/*//
+
+    </script>
 </head>
 <body>
 <div class="box background_on_landing_page">
